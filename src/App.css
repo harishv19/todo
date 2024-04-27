@@ -1,0 +1,41 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: auto; /* Add horizontal scrollbar if todos overflow */
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input {
+  margin-right: 10px;
+}
+
+.todos {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure todos stay in a single line */
+  gap: 20px; /* Add space between todos */
+  overflow-x: auto; /* Add horizontal scrollbar if todos overflow */
+}
+
+.todo-card {
+  min-width: 250px; /* Set minimum width for each todo card */
+  padding: 10px;
+  background-color: aquamarine;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-card h3 {
+  margin-top: 0;
+}
+
+.todo-card p {
+  margin: 5px 0;
+}
+
+.filter {
+  margin-bottom: 10px;
+}
